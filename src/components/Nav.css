@@ -3,10 +3,11 @@
 
 nav {
   height: 50px;
-  margin: 15px;
+  padding: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  color: #1377a8;
 }
 
 .page-title {
@@ -20,4 +21,14 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+.icon-intro {
+  color: #1e8cc4;
+}
+.icon-projects {
+  color: #1e8cc4;
+}
+.icon-contact-me {
+  color: #1e8cc4;
 }
