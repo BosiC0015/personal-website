@@ -29,4 +29,4 @@ class Nav extends React.Component {
   };
 };
 
-export { Nav }
+export { Nav };
