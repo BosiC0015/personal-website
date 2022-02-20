@@ -2,7 +2,7 @@ import React from "react";
 import { IconContext } from "react-icons";
 import { MdEmail } from "react-icons/md";
 import { BsLinkedin, BsGithub, BsTwitter } from "react-icons/bs";
-import "./Contact.scss";
+import "./Contact.css";
 
 
 class Contact extends React.Component {
