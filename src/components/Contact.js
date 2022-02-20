@@ -19,8 +19,8 @@ class Contact extends React.Component {
           </IconContext.Provider>
         </div>
       </div>
-    )
-  }
-}
+    );
+  };
+};
 
 export { Contact };
