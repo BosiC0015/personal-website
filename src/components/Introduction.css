@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+.profile-photo {
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 60vw;
+  height: auto;
+}
+
+.intro-text {
+  margin: 5%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+p {
+  margin: .5em;
+}
+
+p#title {
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 300;
+}
