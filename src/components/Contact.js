@@ -8,7 +8,7 @@ import "./Contact.scss";
 class Contact extends React.Component {
   render() {
     return (
-      <div className="contact">
+      <div className="contact" id="contact">
         <p className="contact-me">Contact me:</p>
         <div className="contact-icons">
           <IconContext.Provider value={{ color: '#66ccff', size: '2em', className: 'contact-icons' }}>
