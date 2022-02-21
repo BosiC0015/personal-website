@@ -10,9 +10,11 @@ class Nav extends React.Component {
   render () {
     return (
       <nav>
-        <div className="page-title">
-          Bosi Chen
-        </div>
+        <a href="/">
+          <div className="page-title">
+            Bosi Chen
+          </div>
+        </a>
         <div className="link-icons">
           <IconContext.Provider value={{ size: '2em', className: 'icon-intro' }}>
             <a href="/#intro-text"><BsChatText /></a>

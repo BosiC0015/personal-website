@@ -7,12 +7,20 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: #1377a8;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
 }
 
 .page-title {
   font-family: 'Patrick Hand', cursive;
   font-size: 2em;
+  color: #1377a8;
 }
 
 .link-icons {
