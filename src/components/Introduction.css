@@ -5,7 +5,7 @@ p {
   margin: .5em;
 }
 
-.profile-photo {
+.profile {
   display: flex;
   margin: 5%;
   padding: 10px;
@@ -14,19 +14,25 @@ p {
 }
 
 #title {
-  text-align: center;
   font-family: 'Dosis', sans-serif;
   font-weight: 300;
+  font-size: 1.5em;
 }
 
-
-img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  max-width: 60vw;
-  height: auto;
+#greeting {
+  margin: 15px;
+  text-align: start;
 }
+#name {
+  margin: 15px;
+  font-size: 3em;
+  font-weight: 800;
+}
+#bio {
+  margin: 15px;
+  text-align: start;
+}
+
 
 .intro-text {
   margin: 5%;
