@@ -1,6 +1,14 @@
 import { Nav } from "../components/Nav";
 import { ProjectHead } from "./ProjectHead";
+import MLTDCalculator from "./projects/MLTDCalculator";
+import MyTinyJournal from "./projects/MyTinyJournal";
+import InterviewScheduler from "./projects/InterviewScheduler";
+import FoodPickupOrdering from "./projects/FoodPickupOrdering";
+import Jungle from "./projects/Jungle";
+import Tweeter from "./projects/Tweeter";
+import TinyApp from "./projects/TinyApp";
 import "./Projectpage.css";
+
 
 export default function ProjectPage() {
   return (
@@ -9,16 +17,13 @@ export default function ProjectPage() {
       <div className="projects">
         <ProjectHead />
         <div className="projects-container">
-          <section className="project-card">
-            <div className="project-title">
-              <h5>MLTD Calculator</h5>
-            </div>
-          </section>
-          <section className="project-card">
-            <div className="project-title">
-              <h5>My Tiny Journal</h5>
-            </div>
-          </section>
+          <MLTDCalculator />
+          <MyTinyJournal />
+          <InterviewScheduler />
+          <FoodPickupOrdering />
+          <Jungle />
+          <Tweeter />
+          <TinyApp />
         </div>
       </div>
     </main>

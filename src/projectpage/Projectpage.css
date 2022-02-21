@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300&family=M+PLUS+1&family=PT+Sans&display=swap');
+
+
 .projects {
   margin: 5%;
   padding: 10px;
@@ -14,9 +17,39 @@ h3 {
   color: #0d445f;
 }
 .icon-view {
-  color: #0d445f;
+  /* color: #0d445f; */
+  display: none;
 }
 
 .project-card {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
+  padding: 3%;
+}
+
+a {
+  color: #000;
+}
+h5 {
+  margin: 1em;
+  text-align: center;
+  font-family: 'M PLUS 1', sans-serif;
+}
+img.project-img {
+  width: 120px;
+  height: 120px;
+}
+.about {
+  display: flex;
+  flex-direction: row;
+}
+.text {
+  padding: 0 5px;
+}
+#stacks {
+  font-size: .9em;
+  font-family: 'KoHo', sans-serif;
+  color: rgb(17, 87, 122);
+}
+#description {
+  font-family: 'PT Sans', sans-serif;
 }

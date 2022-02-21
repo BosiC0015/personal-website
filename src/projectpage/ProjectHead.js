@@ -8,7 +8,7 @@ class ProjectHead extends React.Component {
     return (
       <div className="head">
         <div className="title">
-          <h3>My Projects</h3>
+          <h2>My Projects</h2>
         </div>
         <div className="change-projects-view">
           <IconContext.Provider value={{ size: '2em', className: 'icon-view' }}>
