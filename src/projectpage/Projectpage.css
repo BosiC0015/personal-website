@@ -1,0 +1,22 @@
+.projects {
+  margin: 5%;
+  padding: 10px;
+}
+
+.head {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h3 {
+  color: #0d445f;
+}
+.icon-view {
+  color: #0d445f;
+}
+
+.project-card {
+  border: 1px solid #000;
+}
