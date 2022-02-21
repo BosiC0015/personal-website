@@ -12,6 +12,7 @@ export default function Introduction() {
           <p id="bio">A Junior Full Stack Web Developer</p>
           </div>
       </div>
+      <p className="contact-me">About Me:</p>
         <div className="intro-text" id="intro-text">
           <p id="content">An enthusiastic Full Stack Developer graduated from Lighthouse Lab.</p>
           <p id="content">Skilled with JavaScript, React.js, HTML and CSS front-end developing. Also strong in Node.js and Express.js backend building techniques.</p>
