@@ -1,3 +1,4 @@
+import { ExternalLink } from "../ExternalLink";
 import "../Projectpage.css";
 
 
@@ -8,12 +9,13 @@ export default function MLTDCalculator() {
         <h5>
           <a href="https://github.com/BosiC0015/mltd-calculator" target="_blank">
             MLTD Calculator
+            <ExternalLink />
           </a>
         </h5>
       </div>
       <div className="about">
         <div className="project-img">
-          <img className="project-img" src="https://drive.google.com/uc?export=view&id=1LfBsAb5s2ltIc9XT31gm1rBOhk0sV13M" alt="mltd-calculator" />
+          <img className="project-img" src="https://drive.google.com/uc?export=view&id=1VHqsEqlZaYzyZAKxLKO06UAdM8R8biRu" alt="mltd-calculator" />
         </div>
         <div className="text">
           <div className="stacks">

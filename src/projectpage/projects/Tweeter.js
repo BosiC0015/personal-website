@@ -1,3 +1,4 @@
+import { ExternalLink } from "../ExternalLink";
 import "../Projectpage.css";
 
 
@@ -8,6 +9,7 @@ export default function Tweeter() {
         <h5>
           <a href="https://github.com/BosiC0015/tweeter" target="_blank">
             Tweeter
+            <ExternalLink />
           </a>
         </h5>
       </div>

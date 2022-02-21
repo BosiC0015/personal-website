@@ -1,3 +1,4 @@
+import { ExternalLink } from "../ExternalLink";
 import "../Projectpage.css";
 
 
@@ -8,6 +9,7 @@ export default function InterviewScheduler() {
         <h5>
           <a href="https://github.com/BosiC0015/scheduler" target="_blank">
             Interview Scheduler
+            <ExternalLink />
           </a>
         </h5>
       </div>
