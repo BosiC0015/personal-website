@@ -9,6 +9,7 @@ p {
   display: flex;
   margin: 5%;
   padding: 10px;
+  margin-bottom: 20%;
   flex-direction: column;
   align-items: center;
 }
@@ -46,7 +47,23 @@ p {
 }
 
 
-#content {
+p.content {
   font-family: 'Kanit', sans-serif;
   font-weight: 300;
+}
+#more {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 300;
+  color: #359fd4;
+  text-decoration: underline;
+}
+
+p.more-about {
+  padding-top: 7.5%;
+  padding-right: 50%;
+  padding-left: 10px;
+  text-align: center;
+  color: #359fd4;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.35em;
 }
