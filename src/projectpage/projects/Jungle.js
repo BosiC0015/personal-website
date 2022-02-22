@@ -22,7 +22,7 @@ export default function Jungle() {
             <p id="stacks">Ruby on Rails, HTML, SCSS, PostgreSQL</p>
           </div>
           <div className="desc">
-            <p id="description">Given a mini e-commerse website prototype built with Ruby on Rails, follow the tasks to debug and add features to complete the user stories. A user or admin can see most of the normal e-commerce website features here.</p>
+            <p id="description">Given a mini e-commerce website prototype built with Ruby on Rails, follow the tasks to debug and add features to complete the user stories. A user or admin can see most of the normal e-commerce website features here.</p>
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@ export default function FoodPickupOrdering() {
             <p id="stacks">EJS, SCSS, Express.js, PostgreSQL</p>
           </div>
           <div className="desc">
-            <p id="description">The user can create, edit, delete orders, and submit it to Starlight Cafe which will get a text message to prepare their order. The user will then wait for a response from the restaurant sent via text message, and will update the webpage with the exact time of pick-up. I worked on the cart and order router building and the search feature.</p>
+            <p id="description">The user can create, edit, delete orders, and submit them to Starlight Cafe which will get a text message to prepare their order. The user will then wait for a response from the restaurant sent via text message and will update the webpage with the exact time of pick-up. I worked on the cart and order router building and the search feature.</p>
           </div>
         </div>
       </div>

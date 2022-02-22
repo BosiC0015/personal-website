@@ -22,7 +22,7 @@ export default function Tweeter() {
             <p id="stacks">HTML, CSS, jQuery</p>
           </div>
           <div className="desc">
-            <p id="description">Tweeter is a simple, single-page Twitter clone, having the function of sending a tweet and fetch and display tweets from the server data.</p>
+            <p id="description">The tweeter is a simple, single-page Twitter clone, having the function of sending a tweet and fetching and displaying tweets from the server data.</p>
           </div>
         </div>
       </div>

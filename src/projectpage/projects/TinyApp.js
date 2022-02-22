@@ -22,7 +22,7 @@ export default function TinyApp() {
             <p id="stacks">EJS, Express.js</p>
           </div>
           <div className="desc">
-            <p id="description">TinyApp can store URLs as shortened links, create new shortened URLs, updating URL for an existing shortened URL. And everyone can simply register with an email.</p>
+            <p id="description">TinyApp can store URLs as shortened links, create new shortened URLs, updating URLs for an existing shortened URL. And everyone can simply register with an email.</p>
           </div>
         </div>
       </div>
