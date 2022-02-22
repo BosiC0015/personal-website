@@ -24,11 +24,12 @@ a {
 }
 
 .link-icons {
-  width: 8em;
+  /* width: 8em; */
+  width: 6em;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .icon-intro {

@@ -1,4 +1,5 @@
 import { Nav } from "../components/Nav";
+import { Contact } from "../components/Contact";
 import { ProjectHead } from "./ProjectHead";
 import Portfolio from "./projects/Portfolio";
 import MLTDCalculator from "./projects/MLTDCalculator";
@@ -28,6 +29,7 @@ export default function ProjectPage() {
           <TinyApp />
         </div>
       </div>
+      <Contact />
     </main>
   );
 };

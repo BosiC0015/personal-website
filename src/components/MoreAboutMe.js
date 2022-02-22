@@ -1,4 +1,5 @@
 import { Nav } from "./Nav";
+import { Contact } from "./Contact";
 import "./Introduction.css";
 
 
@@ -15,6 +16,7 @@ export default function MoreAboutMe() {
         <p className="content">While I am away from my work, I am not away from coding. In my free time, I would make some small applications to make it more convenient in my life, like is shown in my projects. </p>
         <p className="content">I will keep on with the continuing game called coding in my life.</p>
       </div>
+      <Contact />
     </div>
   );
 };
