@@ -1,5 +1,6 @@
 import { Nav } from "../components/Nav";
 import { ProjectHead } from "./ProjectHead";
+import Portfolio from "./projects/Portfolio";
 import MLTDCalculator from "./projects/MLTDCalculator";
 import MyTinyJournal from "./projects/MyTinyJournal";
 import InterviewScheduler from "./projects/InterviewScheduler";
@@ -17,6 +18,7 @@ export default function ProjectPage() {
       <div className="projects">
         <ProjectHead />
         <div className="projects-container">
+          <Portfolio />
           <MLTDCalculator />
           <MyTinyJournal />
           <InterviewScheduler />

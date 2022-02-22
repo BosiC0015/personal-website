@@ -36,6 +36,9 @@ h5 {
   font-family: 'M PLUS 1', sans-serif;
 }
 img.project-img {
+  border: 1px solid #b1b1b1;
+  border-radius: 4px;
+  padding: 4px;
   height: 120px;
   width: auto;
 }
