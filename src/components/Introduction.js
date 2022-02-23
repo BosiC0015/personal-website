@@ -6,6 +6,7 @@ export default function Introduction() {
   return (
     <React.Fragment>
       <div className="profile">
+        <div className="bg-img"></div>
         <div id="title">
           <p id="greeting">Hello, my name is</p>
           <p id="name">BOSI CHEN</p>
@@ -19,6 +20,7 @@ export default function Introduction() {
           <p className="content">A fast-learner and can be kept up to date with the new introduced contents. Indeed enjoys the programming process in web development and is willing to learn to become a competitive developer.</p>
           <p id="more"><a id="more" href="/more-about-me">more...</a></p>
         </div>
+      <a href="/projects"><p className="contact-me">Explore My Projects↗️</p></a>
     </React.Fragment>
   );
 };
