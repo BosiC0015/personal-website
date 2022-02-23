@@ -8,7 +8,7 @@ export default function FoodPickupOrdering() {
       <div className="project-title">
         <h5>
           <a href="https://github.com/BosiC0015/Midterm" target="_blank">
-            Food Pickup Ordering App
+            Food Pickup Ordering App (Group Project)
             <ExternalLink />
           </a>
         </h5>
