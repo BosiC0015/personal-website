@@ -26,8 +26,7 @@ nav {
 }
 
 .link-icons {
-  /* width: 8em; */
-  width: 6em;
+  width: 8em;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -37,9 +36,9 @@ nav {
 .icon-intro {
   color: #1e8cc4;
 }
-.icon-projects {
+.icon-about-me {
   color: #1e8cc4;
 }
-.icon-contact-me {
+.icon-projects {
   color: #1e8cc4;
 }
