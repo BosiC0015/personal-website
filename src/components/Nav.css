@@ -11,7 +11,7 @@ nav {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: #ffffff83;
+  background: linear-gradient(75deg, #ffffff,#ffffff9a);
   z-index: 10;
 }
 
