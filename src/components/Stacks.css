@@ -3,11 +3,11 @@
   padding: 10px;
 }
 
-/* .stacks.dropdown {
+.stacks.dropdown {
   position: -webkit-sticky;
   position: sticky;
   top: 55px;
-} */
+}
 
 .explore {
   padding-right: 50%;
@@ -38,7 +38,7 @@ div#testing {
   border: 1px solid #b1b1b1;
   border-radius: 4px;
   padding: 4px;
-  margin-left: 3%;
+  margin-right: 3%;
   margin-top: 1.5%;
   vertical-align: middle;
   height: 90px;
