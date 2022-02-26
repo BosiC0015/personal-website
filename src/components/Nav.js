@@ -9,7 +9,7 @@ class Nav extends React.Component {
   render () {
     return (
       <nav>
-        <a href="/">
+        <a className="home" href="/">
           <div className="page-title">
             Bosi Chen
           </div>

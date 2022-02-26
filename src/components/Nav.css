@@ -7,13 +7,14 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   background-color: #ffffff;
 }
 
-a {
+.home {
   text-decoration: none;
 }
 

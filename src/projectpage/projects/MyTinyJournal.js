@@ -7,7 +7,7 @@ export default function MyTinyJournal() {
     <section className="project-card">
       <div className="project-title">
         <h5>
-          <a href="https://github.com/BosiC0015/journal" target="_blank">
+          <a className="project-title" href="https://github.com/BosiC0015/journal" target="_blank">
             My Tiny Journal (Group Project)
             <ExternalLink />
           </a>

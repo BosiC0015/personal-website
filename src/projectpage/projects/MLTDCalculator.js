@@ -7,7 +7,7 @@ export default function MLTDCalculator() {
     <section className="project-card">
       <div className="project-title">
         <h5>
-          <a href="https://github.com/BosiC0015/mltd-calculator" target="_blank">
+          <a className="project-title" href="https://github.com/BosiC0015/mltd-calculator" target="_blank">
             MLTD Calculator
             <ExternalLink />
           </a>

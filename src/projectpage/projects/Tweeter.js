@@ -7,7 +7,7 @@ export default function Tweeter() {
     <section className="project-card">
       <div className="project-title">
         <h5>
-          <a href="https://github.com/BosiC0015/tweeter" target="_blank">
+          <a className="project-title" href="https://github.com/BosiC0015/tweeter" target="_blank">
             Tweeter
             <ExternalLink />
           </a>

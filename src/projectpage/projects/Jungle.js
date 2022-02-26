@@ -7,7 +7,7 @@ export default function Jungle() {
     <section className="project-card">
       <div className="project-title">
         <h5>
-          <a href="https://github.com/BosiC0015/jungle" target="_blank">
+          <a className="project-title" href="https://github.com/BosiC0015/jungle" target="_blank">
             Jungle
             <ExternalLink />
           </a>
