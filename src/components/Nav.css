@@ -24,6 +24,12 @@ nav {
   font-size: 2em;
   color: #1377a8;
 }
+.smallscreen {
+  display: block;
+}
+.largescreen {
+  display: none;
+}
 
 .link-icons {
   width: 8em;
@@ -41,4 +47,14 @@ nav {
 }
 .icon-projects {
   color: #1e8cc4;
+}
+
+
+@media only screen and (min-width: 481px) {
+  .largescreen {
+    display: block;
+  }
+  .smallscreen {
+    display: none;
+  }
 }

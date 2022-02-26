@@ -60,7 +60,7 @@ img.project-img {
 }
 
 
-@media (min-width: 481px) {
+@media only screen and (min-width: 481px) {
   img.project-img {
     width: 120px;
     height: auto;

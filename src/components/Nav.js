@@ -12,7 +12,12 @@ class Nav extends React.Component {
       <nav>
         <a className="home" href="/">
           <div className="page-title">
-            Bosi Chen Portfolio
+            <div className="smallscreen">
+              Bosi Chen
+            </div>
+            <div className="largescreen">
+              Bosi Chen Portfolio
+            </div>
           </div>
         </a>
         <div className="link-icons">
