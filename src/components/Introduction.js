@@ -1,15 +1,22 @@
 import React from "react";
-import { Dropdown } from "react-bootstrap";
+import { Dropdown, DropdownButton } from "react-bootstrap";
 import { IconContext } from "react-icons";
 import { BiSearchAlt } from "react-icons/bi";
-import { CgProfile } from "react-icons/cg";
-import { AiOutlineProject, AiOutlineFileText } from "react-icons/ai";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Introduction.css";
 
 
 export default function Introduction() {
-  // const { getCollapseProps, getToggleProps } = useCollapse();
+  const title = () => {
+    return (
+      <>
+        <IconContext.Provider value={{ size: '1.5em' }}>
+          <BiSearchAlt />
+        </IconContext.Provider>
+        About Me:
+      </>
+    );
+  };
 
   return (
     <React.Fragment>
@@ -21,20 +28,11 @@ export default function Introduction() {
           <p id="bio">A Junior Full Stack Web Developer</p>
           </div>
       </div>
-      <Dropdown>
-        <Dropdown.Toggle variant="success" id="dropdown-basic">
-          <IconContext.Provider value={{ size: '1.5em' }}>
-            <BiSearchAlt />
-          </IconContext.Provider>
-          About Me:
-        </Dropdown.Toggle>
-
-        <Dropdown.Menu>
-          <Dropdown.Item href="/#intro-text"><p className="explore"><CgProfile />Short Introduction</p></Dropdown.Item>
-          <Dropdown.Item href="/projects"><p className="explore"><AiOutlineProject />Explore My Projects</p></Dropdown.Item>
-          <Dropdown.Item href="https://resume.io/r/02BEvxBFo"><p className="explore"><AiOutlineFileText />View My Resume</p></Dropdown.Item>
-        </Dropdown.Menu>
-      </Dropdown>
+      <DropdownButton id="dropdown-basic-button" title={title()}>
+        <Dropdown.Item href="/#intro-text"><p className="explore">Short Introduction</p></Dropdown.Item>
+        <Dropdown.Item href="/projects"><p className="explore">Explore My Projects</p></Dropdown.Item>
+        <Dropdown.Item href="https://resume.io/r/02BEvxBFo"><p className="explore">View My Resume</p></Dropdown.Item>
+      </DropdownButton>
       <div className="intro-text" id="intro-text">
         <p className="content">An enthusiastic Full Stack Developer.</p>
         <p className="content">Skilled with JavaScript, React.js, HTML and CSS front-end developing. Also strong in Node.js and Express.js backend building techniques.</p>
