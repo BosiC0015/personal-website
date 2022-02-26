@@ -22,10 +22,18 @@ export default function Stacks() {
         <img className="stack-img" src="https://drive.google.com/uc?export=view&id=1MS_vIXrac-LZlVOg4PTBZz9jAoc9Orfm" alt="html" />
         <img className="stack-img" src="https://drive.google.com/uc?export=view&id=1MdtSfROQsgumyXMHQx7HKhDmVRJ6igix" alt="css" />
         <img className="stack-img" src="https://drive.google.com/uc?export=view&id=1ddZ7-57SOZaH4xQ6s7w29FhPw6WNNeUl" alt="scss" />
+        <img className="stack-img" src="https://drive.google.com/uc?export=view&id=1gGz2sCIVZfQWrcAcKjcZmdaiV8_Jmbqy" alt="bootstrap" />
       </div>
       <div>
         <img className="stack-img" src="https://drive.google.com/uc?export=view&id=1MpX5EEe84wNTW4j56IdReOV_7lsfh500" alt="ruby" />
         <img className="stack-img" src="https://drive.google.com/uc?export=view&id=1MtZphWX-BOVltJ9l0b1EmZOkoTt9BCHL" alt="ruby on rails" />
+      </div>
+      <div>
+        <img className="stack-img" src="https://drive.google.com/uc?export=view&id=1RDkoGxbc6dWyYgObNdzzF-fDIEmr2wgk" alt="mocha chai" />
+        <img className="stack-img" src="https://drive.google.com/uc?export=view&id=1LsRHpBIiu_nnFiAnqHiBeqedCzp-Zriu" alt="jest" />
+        <img className="stack-img" src="https://drive.google.com/uc?export=view&id=13OrvusZmqDlgslrth5n8dWuoWFc4HVx3" alt="storybook" />
+        <img className="stack-img" src="https://drive.google.com/uc?export=view&id=1GXivIWDULFKG2Sa5rbgy03CNuJoSdRfe" alt="cypress" />
+        <img className="stack-img" src="https://drive.google.com/uc?export=view&id=1cPZq-8Q6CmLCOPzuuEDefGKdvCHBkICr" alt="rspec" />
       </div>
     </div>
   );
