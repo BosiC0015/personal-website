@@ -7,7 +7,8 @@
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
-  background-color: #f2fbff;
+  background-color: #f2fbfff3;
+  z-index: 10;
 
   &-me {
     padding-right: 50%;
