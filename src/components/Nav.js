@@ -4,13 +4,14 @@ import { CgProfile } from "react-icons/cg";
 import { TiBusinessCard } from "react-icons/ti";
 import { AiOutlineProject } from "react-icons/ai";
 import "./Nav.css";
+import ReactTooltip from "react-tooltip";
 
 
 class Nav extends React.Component {
   render () {
     return (
       <nav>
-        <a className="home" href="/">
+        <a data-tip='Go To Homepage!' className="home" href="/">
           <div className="page-title">
             <div className="smallscreen">
               Bosi Chen
@@ -22,14 +23,15 @@ class Nav extends React.Component {
         </a>
         <div className="link-icons">
           <IconContext.Provider value={{ size: '2em', className: 'icon-intro' }}>
-            <a href="/#intro-text"><CgProfile /></a>
+            <a data-tip='Short introduction' href="/#intro-text"><CgProfile /></a>
           </IconContext.Provider>
           <IconContext.Provider value={{ size: '2em', className: 'icon-about-me' }}>
-            <a href="/more-about-me"><TiBusinessCard /></a>
+            <a data-tip='More about me' href="/more-about-me"><TiBusinessCard /></a>
           </IconContext.Provider>
           <IconContext.Provider value={{ size: '2em', className: 'icon-projects' }}>
-            <a href="/projects"><AiOutlineProject /></a>
+            <a data-tip='My projects' href="/projects"><AiOutlineProject /></a>
           </IconContext.Provider>
+          <ReactTooltip place="bottom" type="dark" effect="solid"/>
         </div>
       </nav>
     );
