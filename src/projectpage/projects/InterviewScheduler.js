@@ -4,7 +4,7 @@ import "../Projectpage.css";
 
 export default function InterviewScheduler() {
   return (
-    <section className="project-card">
+    <section id="scheduler" className="project-card">
       <div className="project-title">
         <h5>
           <a className="project-title" href="https://github.com/BosiC0015/scheduler" target="_blank">

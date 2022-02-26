@@ -4,7 +4,7 @@ import "../Projectpage.css";
 
 export default function Tweeter() {
   return (
-    <section className="project-card">
+    <section id="tweeter" className="project-card">
       <div className="project-title">
         <h5>
           <a className="project-title" href="https://github.com/BosiC0015/tweeter" target="_blank">

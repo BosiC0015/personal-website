@@ -4,7 +4,7 @@ import "../Projectpage.css";
 
 export default function TinyApp() {
   return (
-    <section className="project-card">
+    <section id="portfolio" className="project-card">
       <div className="project-title">
         <h5>
           <a className="project-title" href="https://github.com/BosiC0015/personal-website" target="_blank">
@@ -19,7 +19,7 @@ export default function TinyApp() {
         </div>
         <div className="text">
           <div className="stacks">
-            <p id="stacks">React.js, CSS</p>
+            <p id="stacks">React.js, CSS, Bootstrap</p>
           </div>
           <div className="desc">
             <p id="description">My portfolio website, built with React.js and CSS. There is a homepage for introduction and connection and a project page outlining all my projects.</p>

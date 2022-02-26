@@ -4,7 +4,7 @@ import "../Projectpage.css";
 
 export default function MLTDCalculator() {
   return (
-    <section className="project-card">
+    <section id="mltd" className="project-card">
       <div className="project-title">
         <h5>
           <a className="project-title" href="https://github.com/BosiC0015/mltd-calculator" target="_blank">
