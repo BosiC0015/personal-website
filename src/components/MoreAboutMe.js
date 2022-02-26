@@ -1,9 +1,18 @@
+import { useState } from "react";
+import { Carousel } from "react-bootstrap";
 import { Nav } from "./Nav";
 import { Contact } from "./Contact";
-import "./Introduction.css";
+import "./MoreAboutMe.css";
 
 
 export default function MoreAboutMe() {
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
+
+
   return (
     <div>
       <Nav />
@@ -16,6 +25,21 @@ export default function MoreAboutMe() {
         <p className="content">While I am away from my work, I am not away from coding. In my free time, I would make some small applications to make it more convenient in my life, like is shown in my projects. </p>
         <p className="content">I will keep on with the continuing game called coding in my life.</p>
       </div>
+      <p className="more-about">Related Certificates:</p>
+      <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel.Item>
+          <img className="certificate" src="https://drive.google.com/uc?export=view&id=18b8AtzGczjRhnjxPE3rHPQsyKgIJYNI1" />
+          {/* <Carousel.Caption>
+            <h3>Diploma in Web Development</h3>
+          </Carousel.Caption> */}
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="certificate" src="https://drive.google.com/uc?export=view&id=1Zdm0HE1Tw9aWJ-IJO7Z72NYEEcWr6Z4V" />
+          {/* <Carousel.Caption>
+            <h3>Soft Skills Training Certificate</h3>
+          </Carousel.Caption> */}
+        </Carousel.Item>
+      </Carousel>
       <Contact />
     </div>
   );

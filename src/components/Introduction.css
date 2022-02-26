@@ -83,13 +83,3 @@ p.content {
   color: #359fd4;
   text-decoration: underline;
 }
-
-p.more-about {
-  margin-top: 10%;
-  padding-right: 30%;
-  padding-left: 10px;
-  text-align: center;
-  color: #359fd4;
-  font-family: 'Varela Round', sans-serif;
-  font-size: 1.35em;
-}

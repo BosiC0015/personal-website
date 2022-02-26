@@ -1,0 +1,21 @@
+p.more-about {
+  margin-top: 10%;
+  margin-left: 5%;
+  padding-left: 10px;
+  color: #359fd4;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.35em;
+}
+
+img.certificate {
+  width: 70vw;
+  height: auto;
+}
+
+.carousel-item {
+  display: none;
+}
+.active.carousel-item {
+  display: flex;
+  justify-content: center;
+}
