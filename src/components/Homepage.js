@@ -1,7 +1,8 @@
 import { Nav } from "./Nav";
 import Introduction from "./Introduction";
-import { Contact } from "./Contact";
 import Stacks from "./Stacks";
+import { Contact } from "./Contact";
+import "./Homepage.css";
 
 export default function Homepage() {
   return (
