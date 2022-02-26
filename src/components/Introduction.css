@@ -36,6 +36,27 @@ p {
   text-align: start;
 }
 
+.dropdown {
+  margin-right: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dropdown-basic {
+  background-color: #49c2ff;
+  border-color: #4182a3;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.explore {
+  padding-right: 50%;
+  padding-left: 10px;
+  text-align: center;
+  color: #359fd4;
+  font-family: 'Varela Round', sans-serif;
+}
+
 
 .intro-text {
   margin: 5%;
