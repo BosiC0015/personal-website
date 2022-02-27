@@ -22,8 +22,7 @@ export default function MyTinyJournal() {
             <p id="stacks">React.js, SCSS, Express.js, PostgreSQL</p>
           </div>
           <div className="desc">
-            <p id="description">A journaling web app. A user can create, modify, and delete all-day plans, plans at an exact time or long plans lasting for days. Users can also write diaries and track monthly habits as well. I worked on the tracker page and most of the final scss styling.
-</p>
+            <p id="description">A journaling web app. A user can create, modify, and delete all-day plans, plans at an exact time or long plans lasting for days. Users can also write diaries and track monthly habits as well. I worked on the tracker page and most of the final scss styling.</p>
           </div>
         </div>
       </div>
