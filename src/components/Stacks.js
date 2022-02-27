@@ -57,7 +57,7 @@ export default function Stacks() {
             <img className="stack-img" alt="html" src="https://drive.google.com/uc?export=view&id=1MS_vIXrac-LZlVOg4PTBZz9jAoc9Orfm" />
             <img className="stack-img" alt="css" src="https://drive.google.com/uc?export=view&id=1MdtSfROQsgumyXMHQx7HKhDmVRJ6igix" />
           </a>
-          <a href="/projects#mltd">
+          <a href="/projects#journal">
             <img className="stack-img" alt="scss" src="https://drive.google.com/uc?export=view&id=1ddZ7-57SOZaH4xQ6s7w29FhPw6WNNeUl" />
           </a>
           <a href="/projects#portfolio">
