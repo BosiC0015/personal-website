@@ -15,7 +15,7 @@ export default function MyTinyJournal() {
       </div>
       <div className="about">
         <div className="project-img">
-          <img className="project-img" src="https://drive.google.com/uc?export=view&id=1YhJNfQYsQUpdGodS0KDoJyFC8HmsQI19" alt="my-tiny-journal" />
+          <img className="project-img" src="https://drive.google.com/uc?export=view&id=1OE69gaAdQ_GKtoS_CsT7l8YdmIevPU47" alt="my-tiny-journal" />
         </div>
         <div className="text">
           <div className="stacks">
