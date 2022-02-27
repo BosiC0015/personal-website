@@ -30,8 +30,10 @@ export default function Introduction() {
       </div>
       <DropdownButton id="dropdown-basic-button" title={title()}>
         <Dropdown.Item href="/#intro-text"><p className="explore">Short Introduction</p></Dropdown.Item>
+        <Dropdown.Item href="/more-about-me"><p className="explore">About Me</p></Dropdown.Item>
         <Dropdown.Item href="/projects"><p className="explore">Explore My Projects</p></Dropdown.Item>
-        <Dropdown.Item href="https://resume.io/r/02BEvxBFo"><p className="explore">View My Resume</p></Dropdown.Item>
+        <Dropdown.Item href="/more-about-me#certificates"><p className="explore">Related Certificates</p></Dropdown.Item>
+        <Dropdown.Item href="https://resume.io/r/02BEvxBFo" target="_blank"><p className="explore">View My Resume</p></Dropdown.Item>
       </DropdownButton>
       <div className="intro-text" id="intro-text">
         <p className="content">An enthusiastic Full Stack Developer.</p>
