@@ -15,7 +15,7 @@ export default function MLTDCalculator() {
       </div>
       <div className="about">
         <div className="project-img">
-          <img className="project-img" src="https://drive.google.com/uc?export=view&id=1VHqsEqlZaYzyZAKxLKO06UAdM8R8biRu" alt="mltd-calculator" />
+          <img className="project-img" src="https://drive.google.com/uc?export=view&id=1n0hlvUotByJeBU5oIiy-sijw4EE0PRD3" alt="mltd-calculator" />
         </div>
         <div className="text">
           <div className="stacks">
