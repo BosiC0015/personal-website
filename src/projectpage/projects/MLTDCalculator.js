@@ -19,7 +19,7 @@ export default function MLTDCalculator() {
         </div>
         <div className="text">
           <div className="stacks">
-            <p id="stacks">React.js, SCSS</p>
+            <p id="stacks">React.js, SCSS, Bootstrap</p>
           </div>
           <div className="desc">
             <p id="description">A SPA for MLTD players to calculate how many times they need to play the regular or event songs to meet their event point goals.</p>
