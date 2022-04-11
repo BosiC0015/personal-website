@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&Dosis&display=swap');
 
 
 nav {
@@ -32,11 +32,11 @@ nav {
 }
 
 .link-icons {
-  width: 8em;
+  width: 21rem;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .icon-intro {
@@ -47,6 +47,16 @@ nav {
 }
 .icon-projects {
   color: #1e8cc4;
+}
+
+.icon-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+  color: #1377a8;
 }
 
 

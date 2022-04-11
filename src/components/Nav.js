@@ -23,13 +23,13 @@ class Nav extends React.Component {
         </a>
         <div className="link-icons">
           <IconContext.Provider value={{ size: '2em', className: 'icon-intro' }}>
-            <a data-tip='Short introduction' href="/#intro-text"><CgProfile /></a>
+            <a className="icon-text" data-tip='Short introduction' href="/#intro-text"><CgProfile />Short Intro</a>
           </IconContext.Provider>
           <IconContext.Provider value={{ size: '2em', className: 'icon-about-me' }}>
-            <a data-tip='More about me' href="/more-about-me"><TiBusinessCard /></a>
+            <a className="icon-text" data-tip='More about me' href="/more-about-me"><TiBusinessCard />About me</a>
           </IconContext.Provider>
           <IconContext.Provider value={{ size: '2em', className: 'icon-projects' }}>
-            <a data-tip='My projects' href="/projects"><AiOutlineProject /></a>
+            <a className="icon-text" data-tip='My projects' href="/projects"><AiOutlineProject />My Projects</a>
           </IconContext.Provider>
           <ReactTooltip place="bottom" type="dark" effect="solid"/>
         </div>
